@@ -1,0 +1,53 @@
+.form-container {
+  border-radius: 5px;
+  width: 396px;
+  margin: auto;
+}
+
+.ant-divider {
+  margin: 20px 16px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-btn,
+.form-input {
+  width: 364px !important;
+  height: 52px !important;
+  border-radius: 6px !important;
+}
+
+.form-input {
+  padding: 14px 16px !important;
+  line-height: 32px !important;
+  font-size: 19px !important;
+}
+
+.btn-login {
+  font-size: 22px !important;
+}
+
+.btn-forget-password {
+  height: fit-content;
+  margin-top: 16px;
+  font-size: 16px !important;
+  font-weight: 500;
+  color: #1877f2;
+  padding: 0 !important;
+}
+
+.btn-register {
+  color: white !important;
+  font-weight: bold;
+  border: none !important;
+  background-color: #42b72a !important;
+  height: 48px !important;
+  padding: 0 16px;
+}
+
+.form-input:focus {
+  border: 1px solid #1877f2;
+}
